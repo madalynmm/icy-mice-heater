@@ -6,8 +6,10 @@ The purpose of this project is to create an interface that allows the user to wr
 
 ## Sample Display of Project:
 
-![Note Taker Page](./assets/images/)
+![Note Taker Page](./assets/images/note-taker-demo.png)
+
+![Note Example](./assets/images/note-example.png)
 
 ## Link to Deployed Application: 
 
-[Note Taker](link)
+[Note Taker](https://morning-lowlands-64809.herokuapp.com/)
