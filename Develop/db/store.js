@@ -1,7 +1,7 @@
 const util = require('util');
 const fs = require('fs');
 
-// This package will be used to generate our unique ids. https://qqq.npmjs.com/package/uuid
+// This package will be used to generate our unique ids. https://www.npmjs.com/package/uuid
 const uuidv1 = require('uuid/v1');
 
 const readFileAsync = util.promisify(fs.readFile);
@@ -51,7 +51,7 @@ class Store {
   removeNote(id) {
     // Get all notes, remove the note with the given id, write the filtered notes
     return this.getNotes()
-      .then((notes) =>notes.filter((note) => note.id !== id))
+      .then((notes) => notes.filter((note) => note.id !== id))
       .then((filteredNotes) => this.write(filteredNotes));
   }
 }
